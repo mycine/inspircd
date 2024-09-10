@@ -1,0 +1,404 @@
+module update-your-server 0.0.0 https://404.example.com
+ depends core 1-2
+ description The version of InspIRCd you are using is EOL. Please upgrade!
+module m_antiknocker 3.832 https://sn.my/kampungchat/addons/m_antiknocker.cpp
+ description Attempts to block a common IRC spambot.
+ depends core 3
+module m_antirandom 3.752 https://sn.my/kampungchat/addons/m_antirandom.cpp
+ description A module to prevent against bots using random patterns.
+ depends core 3
+module m_antisnoop 3.871 https://sn.my/kampungchat/addons/m_antisnoop.cpp
+ description Adds a channel mode which limits the ability of snoopers.
+ depends core 3
+module m_asciiswitch 3.791 https://sn.my/kampungchat/addons/m_asciiswitch.cpp
+ depends core 3
+ description Allows migrating a live network which is using RFC 1459 casemapping to ASCII casemapping.
+module m_asn 3.791 https://sn.my/kampungchat/addons/m_asn.cpp
+ depends core 3
+ description Allows banning users based on Autonomous System number.
+module m_autoaway 3.791 https://sn.my/kampungchat/addons/m_autoaway.cpp
+ depends core 3
+ description Automatically marks idle users as away.
+module m_autodrop 3.795 https://sn.my/kampungchat/addons/m_autodrop.cpp
+ depends core 3
+ description Allows clients to be automatically dropped if they execute certain commands before registration.
+module m_autokick 3.791 https://sn.my/kampungchat/addons/m_autokick.cpp
+ depends core 3
+ description Automatically kicks people who match a banned mask.
+module m_bannegate 3.752 https://sn.my/kampungchat/addons/m_bannegate.cpp
+ depends core 3
+ description Enables ban negation by prefixing the match sequence with ~
+module m_blockhighlight 3.813 https://sn.my/kampungchat/addons/m_blockhighlight.cpp
+ description Adds a channel mode which kills clients that mass highlight spam.
+ depends core 3
+module m_blockinvite 3.756 https://sn.my/kampungchat/addons/m_blockinvite.cpp
+ depends core 3
+ description Provides usermode 'V' - block all INVITEs
+module m_blocksock 3.834 https://sn.my/kampungchat/addons/m_blocksock.cpp
+ depends core 3
+ description Allows blocking IP addresses from making any socket connections to the server.
+module m_changecap 3.752 https://sn.my/kampungchat/addons/m_changecap.cpp
+ description Provides the CHANGECAP command that allows a channel op to change the capitalization of the channel name.
+ depends core 3
+module m_checkbans 3.752 https://sn.my/kampungchat/addons/m_checkbans.cpp
+ depends core 3
+ description Adds commands /checkbans, /testban, and /whyban
+module m_clientcheck 3.791 https://sn.my/kampungchat/addons/m_clientcheck.cpp
+ description Allows detection of clients by version string.
+ depends core 3
+module m_close 3.752 https://sn.my/kampungchat/addons/m_close.cpp
+ depends core 3
+ description Provides the ability to close unregistered connections.
+module m_complete 3.791 https://sn.my/kampungchat/addons/m_complete.cpp
+ depends core 3
+ description Allows clients to automatically complete commands.
+module m_conn_accounts 3.752 https://sn.my/kampungchat/addons/m_conn_accounts.cpp
+ depends core 3
+ description Limit SASL connect classes by account(s).
+module m_conn_banner 3.752 https://sn.my/kampungchat/addons/m_conn_banner.cpp
+ depends core 3
+ description Displays a static text to every connecting user before registration
+module m_conn_join_geoip 3.752 https://sn.my/kampungchat/addons/m_conn_join_geoip.cpp
+ depends core 3
+ description Autojoin users to a channel based on GeoIP.
+module m_conn_join_ident 3.752 https://sn.my/kampungchat/addons/m_conn_join_ident.cpp
+ depends core 3
+ description Autojoin users to a channel based on their ident.
+module m_conn_matchident 3.752 https://sn.my/kampungchat/addons/m_conn_matchident.cpp
+ depends core 3
+ description Allows a connect class to match by ident(s).
+module m_conn_require 3.752 https://sn.my/kampungchat/addons/m_conn_require.cpp
+ depends core 3
+ description Allow or block connections based on multiple criteria
+module m_conn_strictsasl 3.752 https://sn.my/kampungchat/addons/m_conn_strictsasl.cpp
+ depends core 3
+ description Disconnect users that fail a SASL auth.
+module m_conn_vhost 3.752 https://sn.my/kampungchat/addons/m_conn_vhost.cpp
+ depends core 3
+ description Sets a connect block configured vhost on users when they connect
+module m_custompenalty 3.791 https://sn.my/kampungchat/addons/m_custompenalty.cpp
+ depends core 3
+ description Allows the customisation of penalty levels.
+module m_customtags 3.752 https://sn.my/kampungchat/addons/m_customtags.cpp
+ depends core 3
+ description Allows services to add custom tags to messages sent by clients.
+module m_cve_2022_2663 3.791 https://sn.my/kampungchat/addons/m_cve_2022_2663.cpp
+ description Prevents clients from sending messages that trigger CVE-2022-2663.
+ depends core 3
+module m_cve_2024_39844 3.863 https://sn.my/kampungchat/addons/m_cve_2024_39844.cpp
+ description Prevents clients from sending messages that trigger CVE-2024-39844.
+ depends core 3
+module m_dccblock 3.752 https://sn.my/kampungchat/addons/m_dccblock.cpp
+ description Provides support for blocking DCC transfers
+ depends core 3
+module m_defaulttopic 3.791 https://sn.my/kampungchat/addons/m_defaulttopic.cpp
+ depends core 3
+ description Adds support for default channel topics.
+module m_discordnick 3.791 https://sn.my/kampungchat/addons/m_discordnick.cpp
+ depends core 3
+ description Adds support for Discord-style #1234 nick tags.
+module m_eventexec 3.871 https://sn.my/kampungchat/addons/m_eventexec.cpp
+ description Executes commands when a specified event occurs.
+ depends core 3
+module m_exmode 3.752 https://sn.my/kampungchat/addons/m_exmode.cpp
+ depends core 3
+ description Adds the /EXMODE command which explains a mode change.
+module m_extbanbanlist 3.752 https://sn.my/kampungchat/addons/m_extbanbanlist.cpp
+ depends core 3
+ description Provides extban 'b' - Ban list from another channel
+module m_extbanredirect 3.752 https://sn.my/kampungchat/addons/m_extbanredirect.cpp
+ depends core 3
+ description Provide extended ban <extbanchar>:<chan>:<mask> to redirect users to another channel
+module m_extbanregex 3.752 https://sn.my/kampungchat/addons/m_extbanregex.cpp
+ depends core 3
+ description Provides extban 'x' - Regex matching to n!u@h\sr
+module m_fakelist 3.752 https://sn.my/kampungchat/addons/m_fakelist.cpp
+ depends core 3
+ description Turns /list into a honeypot for newly connected users
+module m_forceident 3.791 https://sn.my/kampungchat/addons/m_forceident.cpp
+ depends core 3
+ description Allows forcing idents on users based on their connect class.
+module m_geocmd 3.752 https://sn.my/kampungchat/addons/m_geocmd.cpp
+ description Provides the /GEOLOCATE command which performs Geolocation lookups on arbitrary IP addresses.
+ depends core 3
+module m_globalmessageflood 3.756 https://sn.my/kampungchat/addons/m_globalmessageflood.cpp
+ description Provides channel mode +x (oper only top-level channel flood protection with SNOMASK +F)
+ depends core 3
+module m_hash_crypt 3.883 https://sn.my/kampungchat/addons/m_hash_crypt.cpp
+ description Implements hash functions using crypt(3)
+ depends core 3
+module m_hash_gnutls 3.752 https://sn.my/kampungchat/addons/m_hash_gnutls.cpp
+ description Implements hash functions using GnuTLS API
+ depends core 3
+ conflicts m_md5.so
+ conflicts m_sha256.so
+module m_hideidle 3.756 https://sn.my/kampungchat/addons/m_hideidle.cpp
+ depends core 3
+ description Provides the +a usermode that hides idle and signon time in WHOIS from non-opers
+module m_httpd_api 3.871 https://sn.my/kampungchat/addons/m_httpd_api.cpp
+ depends core 3, m_httpd
+ description Provides a HTTP(s) API that allows users to query to reteive some information on the IRCd and Network.
+module m_identmeta 3.791 https://sn.my/kampungchat/addons/m_identmeta.cpp
+ depends core 3
+ description Stores the ident given in USER as metadata.
+module m_ircv3_extjwt 3.871 https://sn.my/kampungchat/addons/m_ircv3_extjwt.cpp
+ depends core 3
+ description Provides the DRAFT extjwt IRCv3 extension.
+module m_ircv3_utf8only 3.871 https://sn.my/kampungchat/addons/m_ircv3_utf8only.cpp
+ description Implements the IRCv3 UTF8ONLY extension.
+ depends core 3
+module m_join0 3.752 https://sn.my/kampungchat/addons/m_join0.cpp
+ description Implement JOIN 0 (joining 0 makes a user part all channels), RFC2812
+ depends core 3
+module m_joinpartsno 3.752 https://sn.my/kampungchat/addons/m_joinpartsno.cpp
+ description Sends server notices when a user joins/parts a channel.
+ depends core 3
+module m_joinpartspam 3.756 https://sn.my/kampungchat/addons/m_joinpartspam.cpp
+ depends core 3
+ description Adds channel mode +x to block a user after x per y joins and parts/quits (join/part spam)
+module m_jumpserver 3.769 https://sn.my/kampungchat/addons/m_jumpserver.cpp
+ depends core 3
+ description Provides support for the RPL_REDIR numeric and the /JUMPSERVER command.
+module m_kill_idle 3.752 https://sn.my/kampungchat/addons/m_kill_idle.cpp
+ depends core 3
+ description Disconnect idle users matching configured conditions
+module m_messagelength 3.765 https://sn.my/kampungchat/addons/m_messagelength.cpp
+ description Adds a channel mode which limits the length of messages.
+ depends core 3
+module m_messagesocket 3.871 https://sn.my/kampungchat/addons/m_messagesocket.cpp
+ description Allows sending messages to all local users from a socket.
+ depends core 3
+module m_namedstats 3.752 https://sn.my/kampungchat/addons/m_namedstats.cpp
+ description Allows /STATS queries by name
+ depends core 3
+module m_nickdelay 3.752 https://sn.my/kampungchat/addons/m_nickdelay.cpp
+ depends core 3
+ description Enforces a delay between nick changes per user
+module m_nocreate 3.752 https://sn.my/kampungchat/addons/m_nocreate.cpp
+ depends core 3
+ description Adds oper command '/nocreate' to block a user from creating new channels
+module m_noidletyping 3.791 https://sn.my/kampungchat/addons/m_noidletyping.cpp
+ depends core 3
+ description Prevents typing notifications from being sent to idle users.
+module m_noprivatemode 3.791 https://sn.my/kampungchat/addons/m_noprivatemode.cpp
+ description Sets channel mode +s (secret) when users try to set channel mode +p (private).
+ depends core 3
+module m_nouidnick 3.752 https://sn.my/kampungchat/addons/m_nouidnick.cpp
+ depends core 3
+ description Disallows changing nick to UID using /NICK
+module m_opmoderated 3.756 https://sn.my/kampungchat/addons/m_opmoderated.cpp
+ depends core 3
+ description Implements channel mode +U and extban 'u' - moderator mute
+module m_owoifier 3.791 https://sn.my/kampungchat/addons/m_owoifier.cpp
+ description OwO, whats this?
+ depends core 3
+module m_qrcode 3.752 https://sn.my/kampungchat/addons/m_qrcode.cpp
+ description Provides support for QR code generation via the /QRCODE command.
+ depends core 3
+module m_randomnotice 3.752 https://sn.my/kampungchat/addons/m_randomnotice.cpp
+ depends core 3
+ description Send a random notice (quote) from a file to all users at a set interval.
+module m_relaymsg 3.752 https://sn.my/kampungchat/addons/m_relaymsg.cpp
+ depends core 3
+ description Provides the RELAYMSG command & draft/relaymsg capability for stateless bridging
+module m_require_auth 3.752 https://sn.my/kampungchat/addons/m_require_auth.cpp
+ description Gives /ALINE and /GALINE, short for auth-lines. Users affected by these will have to use SASL to connect, while any users already connected but not identified to services will be disconnected in a similar manner to G-lines.
+ depends core 3
+module m_restrictmsg_duration 3.752 https://sn.my/kampungchat/addons/m_restrictmsg_duration.cpp
+ depends core 3
+ description Restrict messages until a user has been connected for a specified duration.
+module m_roleplay 3.752 https://sn.my/kampungchat/addons/m_roleplay.cpp
+ description Provides commands for use in roleplay (tabletop RPG's, etc.)
+ depends core 3
+module m_rotatelog 3.791 https://sn.my/kampungchat/addons/m_rotatelog.cpp
+ depends core 3
+ description Rotates the log files after a defined period.
+module m_samove 3.752 https://sn.my/kampungchat/addons/m_samove.cpp
+ depends core 3
+ description Adds /SAMOVE command to move a user from one channel to another (basically combining SAPART+SAJOIN)
+module m_sha512 3.752 https://sn.my/kampungchat/addons/m_sha512.cpp
+ depends core 3
+ description Hash provider for SHA512.
+module m_shed_users 3.752 https://sn.my/kampungchat/addons/m_shed_users.cpp
+ depends core 3
+ description Slowly disconnects idle users for maintenance
+module m_slowmode 3.756 https://sn.my/kampungchat/addons/m_slowmode.cpp
+ description Provides channel mode +W (slow mode)
+ depends core 3
+module m_solvemsg 3.791 https://sn.my/kampungchat/addons/m_solvemsg.cpp
+ depends core 3
+ description Requires users to solve a basic maths problem before messaging others.
+module m_stats_unlinked 3.752 https://sn.my/kampungchat/addons/m_stats_unlinked.cpp
+ depends core 3
+ description Adds stats character 'X' which shows unlinked servers.
+module m_svsoper 3.791 https://sn.my/kampungchat/addons/m_svsoper.cpp
+ depends core 3
+ description Allows services to forcibly oper a user.
+module m_tag_iphost 3.752 https://sn.my/kampungchat/addons/m_tag_iphost.cpp
+ depends core 3
+ description Provides message tags for showing the IP address and real host to a privileged user.
+module m_teams 3.791 https://sn.my/kampungchat/addons/m_teams.cpp
+ depends core 3
+ description Allows users to be managed using services-assigned teams.
+module m_telegraf 3.752 https://sn.my/kampungchat/addons/m_telegraf.cpp
+ description Provides IRCd metrics to a locally running Telegraf instance.
+ depends core 3
+module m_teststdrpl 3.800 https://sn.my/kampungchat/addons/m_teststdrpl.cpp
+ depends core 3
+ description Adds the STDRPL command for testing client standard reply implementations.
+module m_tgchange 3.752 https://sn.my/kampungchat/addons/m_tgchange.cpp
+ description Implements "target change" detection to help prevent spam bots
+ depends core 3
+module m_timedstaticquit 3.752 https://sn.my/kampungchat/addons/m_timedstaticquit.cpp
+ depends core 3
+ description Replaces the quit message of a quitting user if they have been connected for less than a configurable time
+module m_totp 3.752 https://sn.my/kampungchat/addons/m_totp.cpp
+ description Enables two factor authentification for oper blocks
+ depends core 3
+module m_upgradecheck 3.805 https://sn.my/kampungchat/addons/m_upgradecheck.cpp
+ description Checks the server config for deprecated config entries that might cause trouble when upgrading to v4.
+ depends core 3
+module m_xlinetools 3.752 https://sn.my/kampungchat/addons/m_xlinetools.cpp
+ depends core 3
+ description X-line management with XCOPY, XCOUNT, XREMOVE, and XSEARCH
+module m_zombie 3.752 https://sn.my/kampungchat/addons/m_zombie.cpp
+ depends core 3
+ description Provides support for zombifying users who have split because of a network issue.
+module m_antiknocker 4.887 https://sn.my/kampungchat/addons/m_antiknocker.cpp
+ description Attempts to block a common IRC spambot.
+ depends core 4
+module m_antisnoop 4.847 https://sn.my/kampungchat/addons/m_antisnoop.cpp
+ description Adds a channel mode which limits the ability of snoopers.
+ depends core 4
+module m_asn 4.838 https://sn.my/kampungchat/addons/m_asn.cpp
+ depends core 4
+ description Allows banning users based on Autonomous System number.
+module m_autoaway 4.838 https://sn.my/kampungchat/addons/m_autoaway.cpp
+ depends core 4
+ description Automatically marks idle users as away.
+module m_autodrop 4.810 https://sn.my/kampungchat/addons/m_autodrop.cpp
+ depends core 4
+ description Allows clients to be automatically dropped if they execute certain commands before registration.
+module m_autokick 4.810 https://sn.my/kampungchat/addons/m_autokick.cpp
+ depends core 4
+ description Automatically kicks people who match a banned mask.
+module m_blockhighlight 4.847 https://sn.my/kampungchat/addons/m_blockhighlight.cpp
+ description Adds a channel mode which kills clients that mass highlight spam.
+ depends core 4
+module m_censor 4.847 https://sn.my/kampungchat/addons/m_censor.cpp
+ depends core 4
+ description Allows the server administrator to define inappropriate phrases that are not allowed to be used in private or channel messages.
+module m_clientcheck 4.885 https://sn.my/kampungchat/addons/m_clientcheck.cpp
+ description Allows detection of clients by version string.
+ depends core 4
+module m_cloak_unreal 4.853 https://sn.my/kampungchat/addons/m_cloak_unreal.cpp
+ depends core 4
+ description Adds the unreal-md5, unreal-md5-ip, unreal-sha256, and unreal-sha256-ip cloaking methods for use with the cloak module.
+module m_clones 4.808 https://sn.my/kampungchat/addons/m_clones.cpp
+ depends core 4
+ description Adds the /CLONES command which allows server operators to view IP addresses from which there are more than a specified number of connections.
+module m_complete 4.810 https://sn.my/kampungchat/addons/m_complete.cpp
+ depends core 4
+ description Allows clients to automatically complete commands.
+module m_custompenalty 4.810 https://sn.my/kampungchat/addons/m_custompenalty.cpp
+ depends core 4
+ description Allows the customisation of penalty levels.
+module m_customtags 4.847 https://sn.my/kampungchat/addons/m_customtags.cpp
+ depends core 4
+ description Allows services to add custom tags to messages sent by clients.
+module m_cve_2024_39844 4.865 https://sn.my/kampungchat/addons/m_cve_2024_39844.cpp
+ description Prevents clients from sending messages that trigger CVE-2024-39844.
+ depends core 4
+module m_defaulttopic 4.810 https://sn.my/kampungchat/addons/m_defaulttopic.cpp
+ depends core 4
+ description Adds support for default channel topics.
+module m_delayuse 4.850 https://sn.my/kampungchat/addons/m_delayuse.cpp
+ depends core 4
+ description Allows delaying the recreation of channels and reuse of nicknames.
+module m_discordnick 4.810 https://sn.my/kampungchat/addons/m_discordnick.cpp
+ depends core 4
+ description Adds support for Discord-style #1234 nick tags.
+module m_eventexec 4.838 https://sn.my/kampungchat/addons/m_eventexec.cpp
+ description Executes commands when a specified event occurs.
+ depends core 4
+module m_exmode 4.810 https://sn.my/kampungchat/addons/m_exmode.cpp
+ depends core 4
+ description Adds the /EXMODE command which explains a mode change.
+module m_forceusername 4.889 https://sn.my/kampungchat/addons/m_forceusername.cpp
+ depends core 4
+ description Allows forcing usernames on users based on their connect class.
+module m_geocmd 4.810 https://sn.my/kampungchat/addons/m_geocmd.cpp
+ description Provides the /GEOLOCATE command which performs Geolocation lookups on arbitrary IP addresses.
+ depends core 4
+module m_hostchange 4.838 https://sn.my/kampungchat/addons/m_hostchange.cpp
+ depends core 4
+ description Allows the server administrator to define custom rules for applying hostnames to users.
+module m_ipinfo_io 4.880 https://sn.my/kampungchat/addons/m_ipinfo_io.cpp
+ description Ip information from Ipinfo.io in /WHOIS (only irc operators), found more information at https://ipinfo.io/developers.
+ depends core 4
+module m_ircv3_extjwt 4.865 https://sn.my/kampungchat/addons/m_ircv3_extjwt.cpp
+ depends core 4
+ description Provides the DRAFT extjwt IRCv3 extension.
+module m_lockserv 4.799 https://sn.my/kampungchat/addons/m_lockserv.cpp
+ depends core 4
+ description Adds the /LOCKSERV and /UNLOCKSERV commands which allows server operators to control whether users can connect to the local server.
+module m_messagelength 4.847 https://sn.my/kampungchat/addons/m_messagelength.cpp
+ description Adds a channel mode which limits the length of messages.
+ depends core 4
+module m_messagesocket 4.838 https://sn.my/kampungchat/addons/m_messagesocket.cpp
+ description Allows sending messages to all local users from a socket.
+ depends core 4
+module m_modenotice 4.797 https://sn.my/kampungchat/addons/m_modenotice.cpp
+ depends core 4
+ description Adds the /MODENOTICE command which sends a message to all users with the specified user modes set.
+module m_noidletyping 4.847 https://sn.my/kampungchat/addons/m_noidletyping.cpp
+ depends core 4
+ description Prevents typing notifications from being sent to idle users.
+module m_nopartmsg 4.815 https://sn.my/kampungchat/addons/m_nopartmsg.cpp
+ description Adds extended ban p: (partmsg) which blocks the part message of matching users.
+ depends core 4
+module m_noprivatemode 4.810 https://sn.my/kampungchat/addons/m_noprivatemode.cpp
+ description Sets channel mode +s (secret) when users try to set channel mode +p (private).
+ depends core 4
+module m_profileLink 4.867 https://sn.my/kampungchat/addons/m_profileLink.cpp
+ depends core 4
+ description Adds a profile link to the WHOIS response for registered users, ignoring services, bots.
+module m_protoctl 4.793 https://sn.my/kampungchat/addons/m_protoctl.cpp
+ depends core 4
+ description Provides compatibility with the legacy PROTOCTL system.
+module m_qrcode 4.838 https://sn.my/kampungchat/addons/m_qrcode.cpp
+ description Provides support for QR code generation via the /QRCODE command.
+ depends core 4
+module m_randomidxlines 4.869 https://sn.my/kampungchat/addons/m_randomidxlines.cpp
+ description Enhances /zline, /gline, /kline, /kill and similar commands by adding a random ID to the end for better log identification.
+ depends core 4
+module m_regex_pcre 4.855 https://sn.my/kampungchat/addons/m_regex_pcre.cpp
+ depends core 4
+ description Provides the pcre regular expression engine which uses the PCRE library.
+module m_regex_tre 4.806 https://sn.my/kampungchat/addons/m_regex_tre.cpp
+ depends core 4
+ description Provides the tre regular expression engine which uses the TRE library.
+module m_solvemsg 4.847 https://sn.my/kampungchat/addons/m_solvemsg.cpp
+ depends core 4
+ description Requires users to solve a basic maths problem before messaging others.
+module m_ssl_mbedtls 4.842 https://sn.my/kampungchat/addons/m_ssl_mbedtls.cpp
+ depends core 4
+ description Allows TLS encrypted connections using the mbedTLS library.
+module m_stats_unlinked 4.810 https://sn.my/kampungchat/addons/m_stats_unlinked.cpp
+ depends core 4
+ description Adds stats character 'X' which shows unlinked servers.
+module m_teams 4.838 https://sn.my/kampungchat/addons/m_teams.cpp
+ depends core 4
+ description Allows users to be managed using services-assigned teams.
+module m_teststdrpl 4.810 https://sn.my/kampungchat/addons/m_teststdrpl.cpp
+ depends core 4
+ description Adds the STDRPL command for testing client standard reply implementations.
+module m_userip 4.812 https://sn.my/kampungchat/addons/m_userip.cpp
+ depends core 4
+ description Adds the /USERIP command which allows users to find out the IP address of one or more connected users.
+module cloak_md5 5.873 https://sn.my/kampungchat/addons/cloak_md5.cpp
+ depends core 5
+ description Adds the half and full cloaking methods for use with the cloak module.
+module md5 5.873 https://sn.my/kampungchat/addons/md5.cpp
+ depends core 5
+ description Allows other modules to generate MD5 hashes.
